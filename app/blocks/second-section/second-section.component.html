@@ -1,0 +1,53 @@
+<div class="container" *ngIf="screenWidth >= 1920">
+  <div class="container_left">
+    <div class="container_left-item1">
+      Мы работаем быстро<br>
+      и наши отчеты проходят согласование с первого раза
+    </div>
+    <div class="container_left-item2">
+      Над вашим объектом работает целая команда:<br>
+      3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ
+    </div>
+  </div>
+  <div class="container_right">
+    <div>
+      <div class="container_right-item1">
+        Вы и Ваши архитекторы получаете:
+      </div>
+      <div class="container_right-item2">
+        <div *ngFor="let item of youGet" class="right_item2-items">
+          <div><img src="{{item.img}}" class="item2_items-img"></div>
+          <div class="item2_items-info">{{item.info}}</div>
+        </div>
+      </div>
+      <div class="container_midle">
+        <img alt="tv" src="../../../../assets/images/tv.webp" class="container_midle-images">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" *ngIf="screenWidth < 1920">
+  <div class="container_left">
+    <div class="container_left-item1">
+      Мы работаем быстро<br>
+      и наши отчеты проходят согласование с первого раза
+    </div>
+    <div class="container_left-item2">
+      Над вашим объектом работает целая команда:<br>
+      3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ
+    </div>
+  </div>
+  <div class="container_right">
+    <div>
+      <div class="container_right-item1">
+        Вы и Ваши архитекторы получаете:
+      </div>
+      <div class="container_right-item2">
+        <div *ngFor="let item of youGet" class="right_item2-items">
+          <div><img src="{{item.img}}" class="item2_items-img"></div>
+          <div class="item2_items-info">{{item.info}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+<div class="container" *ngIf="screenWidth >= 1920">
+  <div>
+    <img alt="bg"
+         src="../../../../assets/images/bg.webp" class="bg">
+  </div>
+  <div class="container_info">
+    <div class="container_info-left">
+      <div class="info_left-item1">
+        Независимое обследование
+        зданий и сооружений
+      </div>
+      <div class="info_left-item2">
+        антенн, труб, теплосетей, канализаций
+        и других объектов строительства
+      </div>
+    </div>
+    <div class="container_info-right">
+      <div class="info_right-itemButton">
+        <app-button></app-button>
+      </div>
+      <div class="info_right-item">Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой
+        email или в мессенджер
+      </div>
+    </div>
+  </div>
+  <div class="container_info-bottom">
+    <div *ngFor="let item of advantage">
+      <div class="advantage">
+        <div><img src="{{item.img}}" class="advantage_img"></div>
+        <div class="advantage_txt">{{item.txt}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="video">
+    <img alt="video"
+         src="../../../../assets/images/txtVideo.webp" class="txtVideo">
+    <img alt="videoFace"
+         src="../../../../assets/images/face.webp" class="faceVideo">
+    <img alt="play"
+         src="../../../../assets/icons/polygon.svg" class="poligon">
+  </div>
+</div>
+<div class="container" *ngIf="screenWidth < 1920">
+  <div>
+    <img alt="bg"
+         src="../../../../assets/images/bg.webp" class="bg">
+  </div>
+  <div class="container_info">
+    <div class="container_info-left">
+      <div class="info_left-item1">
+        Независимое обследование
+        зданий и сооружений
+      </div>
+      <div class="info_left-item2">
+        антенн, труб, теплосетей, канализаций
+        и других объектов строительства
+      </div>
+    </div>
+    <div class="container_info-right">
+      <div *ngFor="let item of advantage">
+        <div class="advantage">
+          <div><img src="{{item.img}}" class="advantage_img"></div>
+          <div class="advantage_txt">{{item.txt}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video">
+    <img alt="video"
+         src="../../../../assets/images/txtVideo.webp" class="txtVideo">
+    <img alt="videoFace"
+         src="../../../../assets/images/face.webp" class="faceVideo">
+    <img alt="play"
+         src="../../../../assets/icons/polygon.svg" class="poligon">
+  </div>
+  <div class="container_info-bottom">
+    <div class="info_right-item">Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой
+      email или в мессенджер
+    </div>
+    <div class="info_right-itemButton">
+      <app-button></app-button>
+    </div>
+  </div>
+</div>

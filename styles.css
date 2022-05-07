@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Gilroy-Extrabold;
+  src:url("/assets/fonts/Gilroy-Extrabold.ttf")
+}
+
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src:url("/assets/fonts/ProximaNova-Semibold.ttf")
+}
+
+@font-face {
+  font-family: ProximaNova-Extrabld;
+  src:url("/assets/fonts/ProximaNova-Extrabld.ttf")
+}
+
+@font-face {
+  font-family: ProximaNova-Regular;
+  src:url("/assets/fonts/ProximaNova-Regular.ttf")
+}
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src:url("/assets/fonts/ProximaNova-Bold.ttf")
+}
+
+@font-face {
+  font-family: ProximaNova-RegularIt;
+  src:url("/assets/fonts/ProximaNova-RegularIt.ttf")
+}
+
+@font-face {
+  font-family: BebasNeueBl;
+  src:url("/assets/fonts/BebasNeueBl.ttf")
+}

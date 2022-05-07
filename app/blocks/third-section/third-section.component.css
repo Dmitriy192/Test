@@ -1,0 +1,240 @@
+@media (min-width: 1920px) {
+  .container {
+    position: relative;
+    width: 100%;
+    height: 753px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_header {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: #FEE040;
+    font-family: "BebasNeueBl", serif;
+    z-index: 1;
+  }
+
+  .container_info {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    font-family: "Gilroy-Extrabold", serif;
+    z-index: 1;
+  }
+
+  .mask1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 753px;
+    width: 1920px;
+  }
+
+  .mask2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.8;
+    height: 753px;
+    width: 1920px;
+  }
+
+  .container_scroll {
+    max-width: 1900px;
+    overflow-x: scroll;
+  }
+
+  #element::-webkit-scrollbar {
+    height: 4px;
+  }
+
+
+  #element::-webkit-scrollbar-thumb {
+    background-image: -webkit-linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .container_scroll-items {
+    margin: 25px 55px 0 0;
+    z-index: 1;
+  }
+
+  .scroll_items-img {
+    width: 400px;
+    height: 250px;
+  }
+
+  .scroll_wrapper {
+    width: 100%;
+    padding-left: 250px;
+    display: flex;
+  }
+
+  .scroll_items-header {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    font-family: "ProximaNova-Extrabld", serif;
+
+  }
+
+  .scroll_items-info {
+    margin-top: 20px;
+    margin-bottom: 29px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: "ProximaNova-Semibold", serif;
+    width: 400px;
+  }
+
+  .scroll_items-button {
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    color: #FEE040;
+    font-family: "BebasNeueBl", serif;
+    margin-right: 13.5px;
+    margin-bottom: 64px;
+  }
+
+  .arrow {
+    width: 21.5px;
+    height: 13px;
+  }
+}
+
+@media (max-width: 1919px) {
+  .container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_header {
+    margin-top: 50px;
+    font-size: 23px;
+    line-height: 15px;
+    letter-spacing: 24px;
+    text-transform: uppercase;
+    color: #FEE040;
+    font-family: "BebasNeueBl", serif;
+    z-index: 1;
+  }
+
+  .container_info {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    font-family: "Gilroy-Extrabold", serif;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .mask1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 85vh;
+    width: 100%;
+  }
+
+  .mask2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.8;
+    height: 85vh;
+    width: 100%;
+  }
+
+  .container_scroll {
+    width: 95%;
+    overflow-x: scroll;
+  }
+
+  #elemen::-webkit-scrollbar {
+    height: 4px;
+  }
+
+
+  #elemen::-webkit-scrollbar-thumb {
+    background-image: -webkit-linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
+    border-radius: 50%;
+  }
+
+  .container_scroll-items {
+    margin: 35px 55px 0 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+  }
+
+  .scroll_items-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .scroll_wrapper {
+    width: 100%;
+    display: flex;
+    height: 55vh;
+  }
+
+  .scroll_items-header {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    font-family: "ProximaNova-Extrabld", serif;
+
+  }
+
+  .scroll_items-info {
+    margin-top: 20px;
+    margin-bottom: 29px;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: "ProximaNova-Semibold", serif;
+  }
+
+  .scroll_items-button {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    color: #FEE040;
+    font-family: "BebasNeueBl", serif;
+    margin-right: 13.5px;
+    margin-bottom: 64px;
+  }
+
+  .arrow {
+    width: 21.5px;
+    height: 13px;
+  }
+}
+

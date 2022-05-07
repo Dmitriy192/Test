@@ -1,0 +1,48 @@
+<div class="container" *ngIf="screenWidth >= 1920">
+  <div class="container_header">Услуги</div>
+  <div class="container_info">Выполняем как комплексное обследование, так и отдельные виды работ</div>
+  <div class="container_scroll" id="element">
+    <div class="scroll_wrapper">
+      <div *ngFor="let item of scroll">
+        <div class="container_scroll-items">
+          <div><img class="scroll_items-img" src="{{item.img}}" alt="image"></div>
+          <div class="scroll_items-header">{{item.header}}</div>
+          <div class="scroll_items-info">{{item.info}}</div>
+        </div>
+        <div class="scroll_items-button">
+          ПОДРОБНЕЕ
+          <img alt="arrow"
+               src="../../../../assets/icons/arrow.svg" class="arrow">
+        </div>
+      </div>
+    </div>
+  </div>
+  <img alt="video"
+       src="../../../../assets/images/mask1.webp" class="mask1">
+  <img alt="video"
+       src="../../../../assets/images/mask2.webp" class="mask2">
+</div>
+<div class="container" *ngIf="screenWidth < 1919">
+  <div class="container_header">Услуги</div>
+  <div class="container_info">Выполняем как комплексное обследование, так и отдельные виды работ</div>
+  <div class="container_scroll" id="elemen">
+    <div class="scroll_wrapper">
+      <div *ngFor="let item of scroll">
+        <div class="container_scroll-items">
+          <div><img class="scroll_items-img" src="{{item.img}}" alt="image"></div>
+          <div class="scroll_items-header">{{item.header}}</div>
+          <div class="scroll_items-info">{{item.info}}</div>
+        </div>
+        <div class="scroll_items-button">
+          ПОДРОБНЕЕ
+          <img alt="arrow"
+               src="../../../../assets/icons/arrow.svg" class="arrow">
+        </div>
+      </div>
+    </div>
+  </div>
+  <img alt="video"
+       src="../../../../assets/images/mask1.webp" class="mask1">
+  <img alt="video"
+       src="../../../../assets/images/mask2.webp" class="mask2">
+</div>
