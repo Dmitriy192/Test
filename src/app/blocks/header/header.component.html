@@ -1,11 +1,12 @@
 <div class="container" id="heder" *ngIf="screenWidth >= 1920">
   <div class="container_elemets">
     <div class="container_elemets-left">
-      <img alt="menu"
-           (click)="showMen()"
+      <div (click)="showMen()"><img alt="menu"
            src="../../../../assets/icons/icon-burger.svg" class="icon_menu">
-      <img alt="logo"
+    </div>
+      <div><img alt="logo"
            src="../../../../assets/images/logo.webp" class="image_logo">
+      </div>
       <div *ngIf="showMenu">
         <div class="menu">
           <div *ngFor="let item of menuArr">

@@ -21,6 +21,7 @@
 
   .container_elemets-left {
     position: relative;
+    display: flex;
   }
 
   .menu {
